@@ -1,0 +1,2 @@
+- Put the environment variables
+- Run the app with `node index.js`
