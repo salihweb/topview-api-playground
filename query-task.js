@@ -11,7 +11,7 @@ console.log("🔍 Avatar Marketing Video Task Query API");
 console.log("=====================================");
 
 // Task ID'yi buraya girin (submit-task.js'den alınan task ID)
-const taskId = "41e52a9c8c2c4a3280450ce7c4ab4685"; // Bu değeri değiştirin
+const taskId = "58503955887a4d039c4422529435d263"; // Bu değeri değiştirin
 
 if (taskId === "YOUR_TASK_ID_HERE") {
   console.log("❌ Lütfen önce task ID'yi girin!");
@@ -24,7 +24,7 @@ async function queryTaskStatus() {
     console.log(`🔍 Task ID: ${taskId} sorgulanıyor...`);
     
     const response = await axios.get(
-      ` https://api.topview.ai//v1/m2v/task/query?taskId=41e52a9c8c2c4a3280450ce7c4ab4685`,
+      ` https://api.topview.ai//v1/m2v/task/query?taskId=58503955887a4d039c4422529435d263`,
       { headers }
     );
     

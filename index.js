@@ -9,7 +9,7 @@ const headers = {
   "Topview-Uid": process.env.TOPVIEW_UID,
 };
 
-const filePath = "./example-images/1.jpg";
+const filePath = "./example-images/2.jpg";
 
 console.log("🚀 Dosya yükleme işlemi başlatılıyor...");
 console.log(`📁 Yüklenecek dosya: ${filePath}`);

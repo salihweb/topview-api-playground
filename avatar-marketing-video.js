@@ -21,13 +21,13 @@ const taskData = {
   productDescription: null,
   
   // Video ayarları
-  aspectRatio: "16:9", // Video oranı
+  aspectRatio: "9:16", // Video oranı
   language: "en", // Dil (tr: Türkçe, en: İngilizce)
   
   // Ses ve avatar ayarları (boş string yerine null)
-  voiceId: null, // Ses ID'si (opsiyonel)
+  voiceId: "2r69IyOA7qyj1TKr11LiCXUGcPhsSYTW", // Ses ID'si (opsiyonel)
   captionId: null, // Altyazı ID'si (opsiyonel)
-  aiavatarId: null, // AI Avatar ID'si (opsiyonel)
+  aiavatarId: "c0e4c08a89bd48a98fe58e59d211fee3", // AI Avatar ID'si (opsiyonel)
   
   // Video uzunluğu
   videoLengthType: 1, // 1: Kısa, 2: Orta, 3: Uzun, 4: Çok Uzun (Default: 1)
